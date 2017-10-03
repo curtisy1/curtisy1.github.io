@@ -2,11 +2,27 @@
 <html>
 <header>
 	<title>{{ page.title }}</title>
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
 </header>
 <body>
+	<nav>
+		<ul>
+	    	<li><a href="/">Home</a></li>
+	       	<li><a href="/about">About</a></li>
+	    	<li><a href="/wiiu">Wii U Devblog</a></li>
+	    	<li><a href="/web">Website stuff</a></li>
+	    	<li><a href="/blog">Personal/political blog</a></li>
+	    	<li><a href="/coding">Programming tutorial stuff kinda</a></li>
+	   	</ul>
+	</nav>
 	<div class="intro">
 		{{ content }}
-	</div>
+	</div><!-- /.intro -->
+	<footer>
+		<ul>
+	   		<li><a href="https://twitter.com/curtisy_1">Twitter</a></li>
+	   		<li><a href="https://github.com/curtisy1">GitHub</a></li>
+		</ul>
+	</footer>
 </body>
 </html>
