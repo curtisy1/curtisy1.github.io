@@ -1,0 +1,21 @@
+Adress-ID;Name;Straﬂe;Postleitzahl;Ort;Land;L‰ngengrad;Breitengrad;Depot;Ansprechpartner;Telefon;E-Mail-Adressen;Kostenstelle;Adress-Info1;Adress-Info2;Adress-Info3;Farbe;Aktiv
+ADR-099;Risse Beton GmbH & Co. KG;Albert-Einstein-Straﬂe 5;12489;Berlin;DEU;13,53514;52,42961;;Hr. Fusch;030-000 0000-00 ;test@test.de;;bitte 2x klingeln;im Hinterhof abstellen;Achtung schmale Einfahrt;#006666;1
+ADR-098;Krandienst Heide Hochhaus;Alfred-Kowalke-Straﬂe 40;10315;Berlin;DEU;13,51437;52,50595;;Fr. Gr‰ber;;;;;;;#cc6600;1
+ADR-097;Weingut Ludwig Weinmann;Allee der Kosmonauten 1;12681;Berlin;DEU;13,52056;52,52541;;Hr. Meier;030 154 987 65;;1000;;;;#990000;1
+ADR-096;Bettengesch‰ft Betten-Bockhart;Allendorfer Weg 3;13055;Berlin;DEU;13,51441;52,53639;;Hr. M¸ller;;;1000;bitte 2x klingeln;;;#ff9933;1
+ADR-095;Albert H‰mmerle, Holzbau;Alt-Stralau 2;10245;Berlin;DEU;13,46516;52,49709;;;0179 456 987 10;;1100;;;;#990033;1
+ADR-094;Fliesenzentrum Peter Platten;Am Treptower Park 2;12435;Berlin;DEU;13,45459;52,49331;;;;;2100;;im Hinterhof abstellen;;#f0c62e;1
+ADR-093;Rost & Sˆhne, Metallbau;An den Treptowers 1;12435;Berlin;DEU;13,4618;52,49535;;Fr. Schmutzler & Hr. Finke;;;2100;;;;#336600;1
+ADR-092;Gr‰ber-‹berdachungen GmbH;An der Michaelbr¸cke 1;10179;Berlin;DEU;13,42408;52,51294;;-;;;5300;;;;#e2f517;1
+ADR-091;Brennerei E. Durst;Andreasstraﬂe 2;10243;Berlin;DEU;13,43055;52,51061;;-;;;5300;;;;#292725;1
+ADR-090;Druckerei Geldsetzer & Sch‰fers;Bambachstraﬂe 4;12051;Berlin;DEU;13,42661;52,46535;;-;;;;;;;;1
+ADR-089;Rost Metallverarbeitung Bauschlosserei;Baumschulenstraﬂe 1;12437;Berlin;DEU;;;;Albert H‰mmerle;;haemmerle@rost.de;;;;;;1
+ADR-088;Max Beer, Getr‰nkemarkt;Beermannstraﬂe 5;12435;Berlin;DEU;;;;Hr. Platten;030 / 12789543;;;;;;;1
+ADR-087;Schreinerei Max Handlos;Beilsteiner Straﬂe 125;12681;Berlin;DEU;;;;Frau Rost;;;;;;;;1
+ADR-086;Frauenschl‰ger GmbH;Bergiusstraﬂe 2;12057;Berlin;DEU;;;;;;;;;;;;0
+ADR-085;Gartenbau Clemens Baum;Blaschkoallee 1;12359;Berlin;DEU;;;;;;;;;;;;0
+ADR-084;Tiefbauunternehmung Buddelmeier;Blockdammweg 28;10317;Berlin;DEU;;;;Ludwig Schleicher;;l.schleichter@buddelmeier.de;;;;;;1
+ADR-083;Mogler-Kassen GmbH, Registrierkassenhersteller;Bl¸cherstraﬂe 1;10961;Berlin;DEU;;;;Fr. Schneider;;;;;;Achtung schmale Einfahrt;;1
+ADR-082;Firma Hirn, Futtermittel;Bˆhmische Straﬂe 40;12055;Berlin;DEU;;;;werktags: Hr. Durst;;;;;;;;0
+ADR-081;Geldschl‰ger Handels-GmbH;Braunschweiger Straﬂe 4;12055;Berlin;DEU;;;;von 8-16 Uhr: Fr. Sch‰fers;;;;;;;;1
+ADR-080;Fliesenzentrum Peter Platten;Aroser Allee 72;13407;Berlin;DEU;;;1;bis 12 Uhr: Hr. Morsch;;;;;;;;
