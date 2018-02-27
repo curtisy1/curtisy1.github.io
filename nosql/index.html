@@ -26,7 +26,7 @@
   		});
   return false; } );
 	
-database.orderByChild(“name”).equalTo(“Cimen”).on(“child_added”, function(snapshot) {
+database.orderByChild('name').equalTo('Cimen').on('child_added', function(snapshot) {
     console.log(snapshot.key);
 });
   
