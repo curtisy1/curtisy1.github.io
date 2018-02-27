@@ -1,0 +1,35 @@
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAA91J4yMEH1-WVybJxE41k4nXSk95--f8",
+    authDomain: "test-a05c3.firebaseapp.com",
+    databaseURL: "https://test-a05c3.firebaseio.com",
+    projectId: "test-a05c3",
+    storageBucket: "",
+    messagingSenderId: "488638001974"
+  };
+  firebase.initializeApp(config);
+  
+  // Get a reference to the database service
+  var database = firebase.database();
+  
+	$('a').click( function(e) {e.preventDefault(); 
+      firebase.database().ref('users/' + (new Date()).toString()).set({
+		    username: 'new user',
+    		email: 'newuser@example.com'
+  		});
+  return false; } );
+  
+
+  
+ var updatedVals = firebase.database().ref('users/');
+	updatedVals.on('value', function(snapshot) {
+  	console.log('updated values',  snapshot.val())
+    $('#data').append(JSON.stringify(snapshot.val()))
+});
+</script>
+<a id='add'>add user</a>
+<div id='data'>
+data here
+</div>
