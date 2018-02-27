@@ -12,14 +12,14 @@
   // Get a reference to the database service
   var database = firebase.database().ref("employees");
   
-	$('#add').click( function(e) {e.preventDefault(); 
-      database.set({
-	      	user_id: "mustermann50",
-		    name: 'Mustermann',
-    		age: 40,
-	      	joined: "2012-12-12"
-  		});
-  return false; } );
+	$('#add').click( function(e) {
+		database.set({
+			user_id: "mustermann50",
+			name: 'Mustermann',
+			age: 40,
+			joined: "2012-12-12"
+			});
+	});
 	
 database.orderByChild('name').equalTo('Cimen').on('child_added', function(snapshot) {
     console.log(snapshot.key);
