@@ -10,7 +10,7 @@
   firebase.initializeApp(config);
   
   // Get a reference to the database service
-  var database = firebase.database().ref("employees");
+  var database = firebase.database().ref("data");
   
 	$('#add').click( function(e) {
 		database.set({
